@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[] args) {
+    
+    
+    //Pacote - Classe - Principal
+
+   // psvm
+    
+    Public static void main (String [] args) {
+    
+    //sout
+	    System.out.print("Olá mundo");
+    
+  }
+}
