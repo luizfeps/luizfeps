@@ -4,7 +4,7 @@
 int main (void)
 
 {
-    
+
 char matriz[4][4] = {'p','p','p','p',
                      'p','a','a','p',
                      'p','a','a','p',
@@ -13,7 +13,7 @@ char matriz[4][4] = {'p','p','p','p',
 char personagem = 'x'; 
 
 
-   printf("Bem vindo ao jogo mais esperado do ano!\n\n");
+   /*printf("Bem vindo ao jogo mais esperado do ano!\n\n");
 
    { 
    system("sleep 02"); 
@@ -24,24 +24,31 @@ char personagem = 'x';
    { 
    system("sleep 04"); 
    system("clear");
-   
+
    fflush(stdout); 
-       
+
    }
 
 {
     printf("Você está no ponto inicial!\n");
     system("sleep 01");
+  */
+  
+    int i, j;
     
-    printf("Escolha ir para Direita (D) e para Esquerda (E).");
+    
+    printf("Escolha ir para Direita (D) e para Esquerda (E): %c", matriz[]);
+    scanf (matriz[2][2]);
+    
+    for (i = 0; i < 4; i++) {
+    for (j = 0; j < 4; j++) 
+    }
+    
+    printf("Você andou!");
+    
+    //}
     
     
-
-}
-
-
-
-
-
-
+  }
+    
 }
