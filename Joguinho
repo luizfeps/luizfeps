@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+
+{
+    
+char matriz[4][4] = {'p','p','p','p',
+                     'p','a','a','p',
+                     'p','a','a','p',
+                     'p','w','p','p'};
+
+char personagem = 'x'; 
+
+
+   printf("Bem vindo ao jogo mais esperado do ano!\n\n");
+
+   { 
+   system("sleep 02"); 
+   }
+
+
+   printf("Press Enter to Start Game!\n\n"); 
+   { 
+   system("sleep 04"); 
+   system("clear");
+   
+   fflush(stdout); 
+       
+   }
+
+{
+    printf("Você está no ponto inicial!\n");
+    system("sleep 01");
+    
+    printf("Escolha ir para Direita (D) e para Esquerda (E).");
+    
+    
+
+}
+
+
+
+
+
+
+}
