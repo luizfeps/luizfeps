@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <locale.h> 
+#include <stdlib.h>
+#include <stdio.h>
+
 
 int main (void) 
 
@@ -10,7 +11,7 @@ setlocale(LC_ALL, "Portuguese");
 
 char componente[20];
 char bk[100];
-int protocolo[6];
+char protocolo[7];
 char endereco[100];
 char responsavel[100];
 char serie[20];
@@ -42,7 +43,7 @@ gets(peca);
 printf("\n Prezada Assistência Técnica,\n\n\nConforme acordado estamos contratando um atendimento \ntécnico no endereço abaixo para realizar a substituição de componente\n\n");
 
 printf("Cliente: Burguer King - %c\n",bk);
-printf("Protocolo/OS:%i \n",protocolo);
+printf("Protocolo/OS:%c \n",protocolo);
 printf("Endereço: %c \n", endereco);
 printf("Responsável no local:%c \n",responsavel);
 printf("Número de Série:%c \n", serie);
