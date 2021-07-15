@@ -7,7 +7,7 @@ int main (void)
 
 {
 
-setlocale(LC_ALL, “Portuguese”);
+//setlocale(LC_ALL, “Portuguese”);
 
 char relato[100];
 char contato[100];
@@ -48,8 +48,8 @@ if (tentativa == 'N') {
 
 else {
 
-    printf("\nResumo da tratativa: %s\n\n", relato);
-
+    printf("\nResumo da tratativa: Entramos em contato atraves do numero %s", contato);
+    printf(" e realizamos a trativa do %s",relato);
 }
 
 
