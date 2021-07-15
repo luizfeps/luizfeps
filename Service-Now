@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <locale.h>
+#include <ctype.h>
 
 int main (void)
 
@@ -11,7 +12,7 @@ setlocale(LC_ALL, “Portuguese”);
 char relato[100];
 char contato[100];
 char operacional[100];
-char sucesso[100];
+char resumo[300];
 
 printf("Resumo do incidente: ");
 gets(relato);
@@ -22,15 +23,32 @@ gets(operacional);
 printf("Informe o contato valido com a loja: ");
 gets(contato);
 
-/*
-printf("Houve sucesso na tentativa de contato ?");
-gets()
-*/
+printf("Houve sucesso na tentativa de contato ? (informe s ou n): ");
+
+   char tentativa; 
+
+    scanf(" %c", &tentativa);
+    
+    tentativa = toupper(tentativa);
+
 
 printf("\nFalha reportada: %s",relato);
 printf("\nTotem operacional: %s",operacional);
-printf("\nResumo: Realizada tentativa de contato com colaborador através do numero %s sem sucesso. Encaminhado msg via whatsapp, aguardando retorno do contato.",contato);
-printf("\n\n\nFelipe Patrocinio\nTecnico Suporte | Videosoft");
+
+if (tentativa == 'N') {
+
+    printf("\nResumo: Realizada tentativa de contato com colaborador através do numero %s sem sucesso. Encaminhado msg via whatsapp, aguardando retorno do contato.",contato);
+    printf("\n\n\nFelipe Patrocinio\nTecnico Suporte | Videosoft");
+
+}
+
+
+
+else {
+
+    printf("\n\nResumo do incidente: %s", relato);
+
+}
 
 
 return 0;
