@@ -1,0 +1,38 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main (void)
+
+{
+
+setlocale(LC_ALL, “Portuguese”);
+
+char relato[100];
+char contato[100];
+char operacional[100];
+char sucesso[100];
+
+printf("Resumo do incidente: ");
+gets(relato);
+
+printf("Totem normalizou ? ");
+gets(operacional);
+
+printf("Informe o contato valido com a loja: ");
+gets(contato);
+
+/*
+printf("Houve sucesso na tentativa de contato ?");
+gets()
+*/
+
+printf("\nFalha reportada: %s",relato);
+printf("\nTotem operacional: %s",operacional);
+printf("\nResumo: Realizada tentativa de contato com colaborador através do numero %s sem sucesso. Encaminhado msg via whatsapp, aguardando retorno do contato.",contato);
+printf("\n\n\nFelipe Patrocinio\nTecnico Suporte | Videosoft");
+
+
+return 0;
+
+}
