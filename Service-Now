@@ -14,7 +14,9 @@ char contato[100];
 char operacional[100];
 char resumo[300];
 
-printf("Resumo do incidente: ");
+printf("Apontamento para o Service-Now");
+
+printf("\n\nResumo do incidente: ");
 gets(relato);
 
 printf("Totem normalizou ? ");
@@ -46,7 +48,7 @@ if (tentativa == 'N') {
 
 else {
 
-    printf("\n\nResumo do incidente: %s", relato);
+    printf("\nResumo da tratativa: %s\n\n", relato);
 
 }
 
