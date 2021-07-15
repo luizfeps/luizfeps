@@ -1,0 +1,39 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main (void)
+
+{
+
+setlocale(LC_ALL, “Portuguese”);
+
+char relato[100];
+char contato[100];
+char operacional[100];
+char resumo[300];
+
+printf("Registro de atividade SoftDesk");
+
+printf("\n\n Titulo da solicitação: ");
+gets(relato);
+
+printf("Totem normalizou ? ");
+gets(operacional);
+
+printf("Resumo do incidente: ");
+gets(resumo);
+
+printf("Informe o contato valido com a loja: ");
+gets(contato);
+
+printf("\nSolicitação: %s",relato);
+printf("\nTotem normalizado: %s",operacional);
+printf("\nResumo: %s",resumo);
+printf("\nContato: %s",contato);
+printf("\n\n\nQualquer dúvida estamos à disposição.\nCordialmente,\n\nFelipe Patrocinio\nTécnico de Suporte | Videosoft");
+
+
+return 0;
+
+}
