@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 int main (void)
 
@@ -30,20 +31,26 @@ char personagem = 'x';
    }*/
 
 {
-    printf("Você está no ponto inicial!\n");
+    printf("\nVocê está no ponto inicial!\n");
     system("sleep 01");
     
-    printf("Escolha ir para Direita (D) e para Esquerda (E).");
+    printf("\nEscolha ir para Direita (D) e para Esquerda (E).");
     char escolhaUsuario;
     
     scanf (" %c", &escolhaUsuario);
 
-    printf ("Você selecionou a letra '%c'", toupper(escolhaUsuario)); //toupper = em caixa alta
+    escolhaUsuario = toupper(escolhaUsuario);
 
+    if (escolhaUsuario == 'D'){
+        printf("\nVocê andou para proxima casa!");
+    }
+    
+    else {
+        printf("\nVocê bateu na parede!");
+    }
+    
+//printf("Escolha ir para Direita (D) e para Esquerda (E).");
 
-   
-
+return 0;
 }
-
-
 }
