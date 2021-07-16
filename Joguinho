@@ -35,21 +35,45 @@ char personagem = 'x';
     system("sleep 01");
     
     printf("\nEscolha ir para Direita (D) e para Esquerda (E).");
-    char escolhaUsuario;
+        char escolhaUsuario;
     
-    scanf (" %c", &escolhaUsuario);
+            scanf (" %c", &escolhaUsuario);
 
     escolhaUsuario = toupper(escolhaUsuario);
 
-    if (escolhaUsuario == 'D'){
-        printf("\nVocê andou para proxima casa!");
+        if (escolhaUsuario == 'D'){
+            printf("\nVocê andou para proxima casa!");
     }
     
-    else {
-        printf("\nVocê bateu na parede!");
+        else {
+            printf("\nVocê bateu na parede!");
+    }
+   
+    printf("\n\nEscolha ir para Baixo (B) ou para Cima (C).");
+        scanf (" %c", &escolhaUsuario);
+        
+        if (escolhaUsuario == 'B'){
+            printf("\nVocê andou para proxima casa!");
     }
     
-//printf("Escolha ir para Direita (D) e para Esquerda (E).");
+        else{
+            printf("\nVocê bateu na parede!");
+    }
+    
+    printf("\n\nEscolha ir para Direita (D) e para Esquerda (E).");
+        scanf (" %c", &escolhaUsuario);
+        
+        if (escolhaUsuario == 'E'){
+            printf("\nVocê andou para proxima casa!");
+    }
+    
+        else{
+            printf("\nVocê bateu na parede!");
+    }
+    
+    
+        
+
 
 return 0;
 }
