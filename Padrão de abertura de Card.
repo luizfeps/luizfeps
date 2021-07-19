@@ -37,7 +37,7 @@ gets(versao);
 
 printf("\n \n Abertura de Card para TI. \n "); 
 
-printf ("\n **Descrição: Eu como %s",solicitante);
+printf ("\n **Descrição: Eu como %s ",solicitante);
 printf ("solicito %s;",solicitacao);
 printf ("\n\n **Critérios:** %s;",criterios); 
 printf ("\n\n **Premissas de teste:** %s;",teste);  
