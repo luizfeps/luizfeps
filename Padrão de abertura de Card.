@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h> 
+
+int main () 
+
+{
+
+setlocale(LC_ALL, "Portuguese");
+
+char solicitante[200];
+char solicitacao[200];
+char criterios[200];
+char teste[200]; 
+char cliente[50];
+char versao[20];
+
+
+
+printf ("\n Informe o solicitante ou quem está impactando (Ex: Cliente Final): ");
+gets(solicitante);
+
+printf ("\n Solicito... ");
+gets(solicitacao);
+
+printf ("\n Quais os criterios para funcionamento: ");
+gets(criterios);
+
+printf ("\n Quais testes deverão ser realizados: ");
+gets(teste);
+
+printf ("\n Informe o Cliente: ");
+gets(cliente);
+
+printf ("\n Informe a versão: ");
+gets(versao);
+
+printf("\n \n Abertura de Card para TI. \n "); 
+
+printf ("\n **Descrição: Eu como %s",solicitante);
+printf ("solicito %s;",solicitacao);
+printf ("\n\n **Critérios:** %s;",criterios); 
+printf ("\n\n **Premissas de teste:** %s;",teste);  
+printf ("\n\n **Cenário**\n\n   **Cliente:** %s;",cliente);  
+printf ("\n   **Versão detectada:** %s;",versao);
+printf ("\n\n **OBS: Se possível testar em versões maiores para se certificar que não seja oriundo a versão em questão;:**"); 
+
+return 0;
+
+}
