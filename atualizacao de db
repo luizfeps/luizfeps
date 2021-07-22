@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<conio.h>
 #include <locale.h> 
 
 int main () 
 
 {
-
-setlocale(LC_ALL, "Portuguese");
 
 char admin[8];
 char front[8];
@@ -42,7 +39,7 @@ printf ("\n Segue dados da entidade: %s \n", cliente);
 printf ("\n **Versão Admin:** %s",admin);
 printf ("\n **Versão App Front:** %s",front); 
 printf ("\n **Versão do Webservice:** %s",ws);  
-printf ("\n **Host: mysql.vsfood.com.br**");  
+printf ("\n **Host**: mysql.vsfood.com.br");  
 printf ("\n **Banco:** %s", banco);
 printf ("\n **User:** %s",user); 
 
