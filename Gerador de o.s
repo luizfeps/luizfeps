@@ -1,4 +1,3 @@
-#include <locale.h> 
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -7,7 +6,6 @@ int main (void)
 
 {
 
-setlocale(LC_ALL, "Portuguese");
 
 char componente[20];
 char bk[100];
@@ -19,7 +17,7 @@ char dia[12];
 char periodo[6];
 char peca[20];
 
-printf("\n Informe o nome da loja com o bk number: ");
+printf("\n Informe o nome da loja: ");
 gets(bk);
 
 printf("Informe o protocolo do atendimento:");
@@ -42,13 +40,13 @@ gets(peca);
 
 printf("\n Prezada Assistência Técnica,\n\n\nConforme acordado estamos contratando um atendimento \ntécnico no endereço abaixo para realizar a substituição de componente\n\n");
 
-printf("Cliente: Burguer King - %c\n",bk);
-printf("Protocolo/OS:%c \n",protocolo);
-printf("Endereço: %c \n", endereco);
-printf("Responsável no local:%c \n",responsavel);
-printf("Número de Série:%c \n", serie);
-printf ("\n O atendimento foi agendado para dia %c no período da %c, ocorrendo qualquer imprevisto, por favor, comunique IMEDIATAMENTE a VIDEOSOFT, já que atrasos podem impactam em multa com cliente.\n",dia);
-printf ("\nLista de peças a serem substituídas:\n\n %c \n\n",peca);
+printf("Cliente: %s\n",bk);
+printf("Protocolo/OS:%s \n",protocolo);
+printf("Endereço: %s \n", endereco);
+printf("Responsável no local:%s \n",responsavel);
+printf("Número de Série:%s \n", serie);
+printf ("\n O atendimento foi agendado para dia %s no período da %s, ocorrendo qualquer imprevisto, por favor, comunique IMEDIATAMENTE a VIDEOSOFT, já que atrasos podem impactam em multa com cliente.\n",dia);
+printf ("\nLista de peças a serem substituídas:\n\n %s \n\n",peca);
 printf ("Para a manutenção do equipamento, levar teclado e mouse, kit de ferramentas básico e.\n\n"); 
 
 return 0;
