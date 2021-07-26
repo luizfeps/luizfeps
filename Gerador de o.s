@@ -44,7 +44,7 @@ printf("Cliente: %s\n",bk);
 printf("Protocolo/OS:%s \n",protocolo);
 printf("Endereço: %s \n", endereco);
 printf("Responsável no local:%s \n",responsavel);
-printf("Número de Série:%s \n", serie);
+printf("Número de Série: Validar no local. \n");
 printf ("\n O atendimento foi agendado para dia %s no período da %s, ocorrendo qualquer imprevisto, por favor, comunique IMEDIATAMENTE a VIDEOSOFT, já que atrasos podem impactam em multa com cliente.\n",dia);
 printf ("\nLista de peças a serem substituídas:\n\n %s \n\n",peca);
 printf ("Para a manutenção do equipamento, levar teclado e mouse, kit de ferramentas básico e.\n\n"); 
