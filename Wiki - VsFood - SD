@@ -1,18 +1,15 @@
-==Possíveis problemas==
-* "Em caso de Layout “desconfigurado”, Ex: sobrepondo um componente ao outro, favor verificar o Zoom do navegador, caso esteja diferente de 100%, este provavelmente pode estar causando o problema. Para verificar em qual porcentagem (%) de Zoom o navegador se encontra, você pode entrar no admin do Totem (10 cliques superior esq.) (vs-food 2.10.0 >) e clicar em “Configurações”, próxima tela você encontrará uma opção chamada “Zoom atual” informando o valor do mesmo."
+VS FOOD - WIKI
 
-* Ao atualizar de uma versão "antiga" para "atual" ou "vice-versa", caso nos logs aconteça um erro relacionado ao "DIXIE" (versão de banco - IndexedDB), é preciso limpar TODOS os dados e reabrir novamente a aplicação.
-
-== Problemas conhecidos == 
+== Problemas conhecidos para solução Satelite == 
 {| class="wikitable"
 ! Sintoma
 ! Causa
 ! Paliativo
 ! Solução
 |-
-| O sistema não realiza a impressão do comprovante e exibe uma mensagem "Ops algo deu errado. Lamentamos por isso. Solicite o auxilio de um atendente, por favor."
-| VS Print não responde
-| Reiniciar o serviço do VS Print
-| Sobre análise
+| Totem não imprime na cozinha
+| 
+| 
+| 
 |-
 |}
