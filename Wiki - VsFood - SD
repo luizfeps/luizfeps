@@ -1,15 +1,16 @@
-VS FOOD - WIKI
-
-== Problemas conhecidos para solução Satelite == 
+== Problemas conhecidos ==
 {| class="wikitable"
 ! Sintoma
 ! Causa
 ! Paliativo
 ! Solução
 |-
-| Totem não imprime na cozinha
+| 
 | 
 | 
 | 
 |-
 |}
+
+#include <stdio.h>
+#include <stdlib.h>
