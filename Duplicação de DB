@@ -1,0 +1,53 @@
+//Duplicação de DB
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h> 
+
+int main () 
+
+{
+
+char admin[8];
+char front[8];
+char ws[8];
+char banco[20]; 
+char cliente[40];
+char user[20];
+
+
+
+printf ("\n Informe o ciente: ");
+gets(cliente);
+
+//printf ("\n Informe a versão atual do admin: ");
+//gets(admin);
+
+printf ("\n Informe a versão do Front: ");
+gets(front);
+
+printf ("\n Informe a versão atual do Webservice: ");
+gets(ws);
+
+printf ("\n Informe o Banco: ");
+gets(banco);
+
+printf ("\n Informe o user do banco: ");
+gets(user);
+
+printf("\n \n solicito a duplicação e parametrização da base de dados do cliente para que possamos pilotar a versão "Beta".\n Será necessario atualizar o admin do cliente para ultima versão disponivel. Por gentileza \n"); 
+
+printf ("\n Segue dados da entidade: %s \n", cliente);
+printf ("\n **Versão Admin:** %s",admin);
+//printf ("\n **Versão App Front:** %s",front); 
+printf ("\n **Versão do Webservice:** %s",ws);  
+//printf ("\n **Host**: mysql.vsfood.com.br");  
+printf ("\n **Banco:** %s", banco);
+printf ("\n **User:** %s",user); 
+
+
+printf ("\n \n Boa tarde, @matheus.pereira\n Aberto card para Duplicação de DB: "); 
+
+return 0;
+
+}
