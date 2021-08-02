@@ -1,8 +1,9 @@
+//Duplicação de DB
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h> 
 
-int main () 
+int main (void) 
 
 {
 
@@ -33,7 +34,7 @@ gets(banco);
 printf ("\n Informe o user do banco: ");
 gets(user);
 
-printf("\n \n Por gentileza, atualizar o DB do cliente para versão mais atual do admin. \n "); 
+printf("\n \n Solicito a duplicação e parametrização da base de dados do cliente para que possamos pilotar a versão BETA.\nSerá necessario atualizar o admin do cliente para ultima versão disponivel. Por gentileza \n"); 
 
 printf ("\n Segue dados da entidade: %s \n", cliente);
 printf ("\n **Versão Admin:** %s",admin);
@@ -44,7 +45,7 @@ printf ("\n **Banco:** %s", banco);
 printf ("\n **User:** %s",user); 
 
 
-printf ("\n \n Boa tarde, @matheus.pereira\n Aberto card para atualização de DB: "); 
+printf ("\n \n Boa tarde, @matheus.pereira\n Aberto card para Duplicação de DB: "); 
 
 return 0;
 
